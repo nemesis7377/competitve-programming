@@ -1,4 +1,6 @@
-//
+// insertion and accessing at both the ends
+// all ops O(1)
+// rotations possible
 dq.push_front(x) - // inserts x at the front
 dq.push_back(x) - // inserts x at the back
 dq.pop_front() - // removes front element

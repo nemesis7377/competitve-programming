@@ -12,7 +12,7 @@ auto mx = *s.rbegin() // max element
 int main(){
     set<int>s;
     s.insert(5);
-    s.insert(10); // insersion 
+    s.insert(10); // insertion 
     s.insert(3);
     s.insert(5); // duplicate — ignored
     s.erase(3); // erasing

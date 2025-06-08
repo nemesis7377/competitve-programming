@@ -14,7 +14,7 @@ int main(){
 
     while (!pq.empty()) { // iterating through the queue
         cout << pq.top() << " "; // prints top element
-        pq.pop(); // removes the highest element 
+        pq.pop(); // removes the top element 
     }
     return 0;
 }

@@ -23,6 +23,7 @@ struct mat{
 
 int main(){
     int n,exp;
+    vector<int>init; // initial conditions vector
     T.a = {"companion matrix"}; // formed using the intial recurrence condition
     mat R(n); R.ide();
     for(;exp;T=(T*T),exp/=2){
@@ -31,6 +32,11 @@ int main(){
         }
     }
     // R is the final exponentiated matrix
+    int ans=0;
+    for(int i=0;i<n;i++){
+        ans = (ans+T.mat[0][i]*init[n-1-i]);
+    }
+
 }
 
 

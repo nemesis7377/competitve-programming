@@ -6,7 +6,7 @@ s.top() - // access top element
 int main(){
     stack<int>s;
     s.push(10);
-    s.push(20); //insertion
+    s.push(20); // insertion
     s.push(40);
     s.push(30);
     auto x = s.top(); // 30

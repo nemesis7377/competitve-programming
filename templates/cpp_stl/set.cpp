@@ -17,7 +17,7 @@ int main(){
     s.insert(3);
     s.insert(5); // duplicate — ignored
     s.erase(3); // erasing
-    for (int x : s) { // iterating through the set
+    for(int x : s){ // iterating through the set
         cout << x << " ";
     }
 }

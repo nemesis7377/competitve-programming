@@ -7,3 +7,12 @@ int modpower(int n,int k){
     }    
     return r ;
 }
+
+int modinv(int n){
+    return (modpower(n,mod-2));
+}
+
+int fracmod(int p,int q,int mod){
+    p%=mod;
+    return (p*modinv(q))%mod;
+}

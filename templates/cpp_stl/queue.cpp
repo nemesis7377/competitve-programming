@@ -4,7 +4,7 @@ q.push(x) - // add element to the back
 q.pop() - // removes front element
 q.front() - // returns front element
 q.back() - // returns back element
-int main() {
+int main(){
     queue<int>q;
     q.push(20);
     q.push(10); // insertion

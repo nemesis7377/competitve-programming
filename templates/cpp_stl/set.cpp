@@ -9,6 +9,7 @@ s.lower_bound(x) - // lower bound
 s.upper_bound(x) - // upper bound
 auto mn = *s.begin() // min element
 auto mx = *s.rbegin() // max element
+s.clear() // clears the set
 int main(){
     set<int>s;
     s.insert(5);
